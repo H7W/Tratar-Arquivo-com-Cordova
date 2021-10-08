@@ -1,0 +1,133 @@
+@charset "UTF-8";
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*→ importante// list-style-type: none;// outline: none;// border:none ;// overflow: hidden;*/
+}
+
+:root {
+  font-family: 'Segoe UI';
+  font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F7F7F7;
+  background-image: linear-gradient(to bottom, #F7F7F7 2%, #ffffff 51%);
+  height: 100vh;
+  width: 100%;
+}
+
+body > .app {
+  background-color: transparent;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+body > .app > img.logoApache {
+  min-height: 150px;
+  max-height: 150px;
+}
+
+body > .app > h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+  overflow: visible;
+  padding: 0px;
+  text-align: center;
+}
+
+body > .app > button.event {
+  font-size: 0.8em;
+}
+
+body > .app > span {
+  font-size: 0.8em;
+  justify-self: baseline;
+  width: 100%;
+  text-align: right;
+}
+
+body > .app > p {
+  color: #FFFFFF;
+  font-size: 0.8em;
+  padding: 2px 0.5px;
+  border-radius: 4px;
+}
+
+body > .app #deviceready.ready .event.conectando {
+  display: none;
+}
+
+body > .app #deviceready.ready .event.conectado {
+  display: block;
+}
+
+body > .app .event.conectando {
+  background-color: #333333;
+  display: block;
+}
+
+body > .app .event.conectado {
+  background-color: #4B946A;
+  display: none;
+}
+
+body > .app button#btn_entrarApp {
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 900;
+  background-color: darkcyan;
+  background-color: #4B946A;
+  background-color: deeppink;
+  display: none;
+  padding: 8px 12px;
+  width: inherit;
+  max-width: 120px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+body > .homePage {
+  background-color: transparent;
+  height: min-content;
+  width: 100%;
+  display: none;
+  gap: 10px;
+  align-content: baseline;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+body > .homePage > img {
+  height: 165px;
+  width: initial;
+  min-width: 300px;
+  max-width: 300px;
+  border: 1px solid gainsboro;
+}
+
+body > .homePage > button {
+  padding: 5px 8px;
+}
+
+body > .homePage > span {
+  font-size: 0.8em;
+  width: 80%;
+  font-size: 0.8em;
+  word-break: break-all;
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.css.map */

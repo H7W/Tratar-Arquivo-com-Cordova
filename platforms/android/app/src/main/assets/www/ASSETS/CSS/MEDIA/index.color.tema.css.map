@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,oBAAoB,EAAE,IAAI;EACzC,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,mDAAmD;GACvE",
+    "sources": [
+        "index.color.tema.scss"
+    ],
+    "names": [],
+    "file": "index.color.tema.css"
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <!-- <meta name="format-detection" content="telephone=no"> -->
+        <!-- <meta name="msapplication-tap-highlight" content="no"> -->
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="shortcut icon" href="./../res/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="ASSETS/CSS/index.css">
+        <link rel="stylesheet" href="LIBS/CSS/base.css">
+        <link rel="stylesheet" href="LIBS/CSS/H.lib.v1.0.0.css">
+        <link rel="stylesheet" href="LIBS/CSS/anime.my.1.0.0.css">
+        <title>Tratar Arquivos</title>
+    </head>
+    <body>
+        <div class="app">
+            <img src="ASSETS/MIDIA/IMG/logo.png" class="logoApache col1-3"></img>
+            <h1 class="col1-3">Trata Arquivos</h1>
+            <h5 class="col1-3" id="h5">last: 00.14</h4>
+            <h4 class="col1-3" id="h4">Atual:00.15</h3>
+            <p class="col1-3 event conectando piscarSuave" id="conectando">Conectando ao dispositivo</p>
+            <p class="col1-3 event conectado piscarSuave" id="conectado">O dispositivo está pronto</p>
+            <button class="btns_perms col1" id="btn_getPermCam">Solicitar</button>
+            <span class="spa_perms col2"  id="permCamStatus">Camera | Verificando</span>
+            <button class="btns_perms col1" id="btn_getPermWriteArmEx">Solicitar</button>
+            <span class="spa_perms col2"  id="permCamWriteArmEx">Armaz. Externo | Verificando</span>
+            <button class="btns_perms col1" id="btn_getPermReadArmEx">Solicitar</button>
+            <span class="spa_perms col2"  id="permReadExtStorage">Ler Armazenamento Externo | Verificando</span>
+            <!-- <button class="btns_perms col1" id="btn_acessMediaLocal">Solicitar</button> -->
+            <!-- <span class="spa_perms col2"  id="permAcessMediaLocal">Armaz. Externo | Verificando</span> -->
+            <br>
+            <button id="btn_entrarApp" class="col1-3">Entrar</button>
+        </div>
+        <section class="homePage">
+            <button id="devlopPage">develop page</button>
+            <h1>Home Page</h1>
+            <h5 style="width: 80%;">Exemplo de download de um arquivo a partir da internet</h5>
+            <span>Link da internet de exemplo para download (É imagem abaixo)</span>
+            <img src="https://diariodorio.com/wp-content/uploads/2020/07/Pedra_da_gavea_capa.jpg" alt="">
+            <button id="btn_fazerDownload">Fazer o download</button>
+            <span id="status_downalod">Caminho do Arquivo:</span>
+            <span id="echo_caminhoArqu">echo do arquivo</span>
+            <hr style="height: 2px; width: inherit; background-color: gainsboro; margin: 8px 0px;">
+            <span>Mostrar Arquivo apartir do caminho:</span>
+            <img id="imgResult" src="" alt="">
+            <h5 style="color: red; width: 80%; text-align: justify;">Este exemplo de download de um arquivo a partir da internet, faz o download para dentro de umas das pasta do próprio aplicativo, ou seja, se o aplicativo for excluído o arquivo de download também será.</h5>
+            <br>
+        </section>
+
+    </body>
+    <script src="cordova.js"></script>
+        <script src="LIBS/0-JQUERY/jquery-3.4.1.min.js"></script>
+        <script src="ASSETS/JS/index.js"></script>
+        <!-- <script src="ASSETS/JS/script.js"></script> -->
+</html>
