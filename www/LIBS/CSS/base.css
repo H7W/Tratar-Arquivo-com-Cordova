@@ -1,0 +1,74 @@
+.ocultar {
+  display: none !important;
+}
+
+.activeGrade {
+  display: grid !important;
+}
+
+.activeFlex {
+  display: flex !important;
+}
+
+.activeBloco {
+  display: block !important;
+}
+
+.activeNenhum {
+  display: none !important;
+}
+
+.selc {
+  background-color: red !important;
+}
+
+.selc-2 {
+  background-color: cornflowerblue !important;
+}
+
+.SELC-1 {
+  color: #003c8c !important;
+  background-color: lightcoral !important;
+  border: 1px solid lightcoral !important;
+}
+
+.SELC-1 svg {
+  fill: #003c8c !important;
+  stroke: #003c8c !important;
+}
+
+.SELC-2 {
+  color: #003c8c !important;
+  background-color: #f0808067 !important;
+  border: 1px solid #f0808067 !important;
+}
+
+.SELC-2 svg {
+  fill: #003c8c !important;
+  stroke: #003c8c !important;
+}
+
+.SELC-3 {
+  font-weight: 700;
+  background-color: #f0808067 !important;
+  border: 0px solid #647dff !important;
+}
+
+.SELC-3 span {
+  color: #003c8c !important;
+}
+
+.ACTIVE_painel-A1 {
+  display: grid !important;
+}
+
+.ACTIVE_painel-B1 {
+  display: grid !important;
+}
+
+.activeTextOverFlow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*# sourceMappingURL=base.css.map */
